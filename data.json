@@ -1,0 +1,130 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "firstname": "Alice",
+        "balance": 1000,
+        "credit_ID": 2
+      },
+      {
+        "id": 2,
+        "firstname": "Bob",
+        "balance": 500,
+        "credit_ID": 1
+      },
+      {
+        "id": 3,
+        "firstname": "Charlie",
+        "balance": 1500,
+        "credit_ID": 4
+      },
+      {
+        "id": 4,
+        "firstname": "David",
+        "balance": 2000,
+        "credit_ID": 3
+      }
+    ],
+    "banks": [
+      {
+        "id": 1,
+        "owner": 1,
+        "sender": "Alice",
+        "receiver": 2,
+        "note": "For lunch",
+        "amount": 200,
+        "bank": "Bank A",
+        "type": "transfer"
+      },
+      {
+        "id": 2,
+        "owner": 2,
+        "sender": "Bob",
+        "receiver": 1,
+        "note": "Repayment",
+        "amount": 100,
+        "bank": "Bank B",
+        "type": "transfer"
+      },
+      {
+        "id": 3,
+        "owner": 3,
+        "sender": "Charlie",
+        "receiver": 4,
+        "note": "Gift",
+        "amount": 500,
+        "bank": "Bank C",
+        "type": "transfer"
+      },
+      {
+        "id": 4,
+        "owner": 1,
+        "sender": "Alice",
+        "receiver": 3,
+        "note": "For lunch",
+        "amount": 500,
+        "bank": "Bank A",
+        "type": "transfer"
+      },
+      {
+        "id": 5,
+        "owner": 1,
+        "sender": "Alice",
+        "receiver": null,
+        "note": "Deposit for expenses",
+        "amount": 300,
+        "bank": "Bank A",
+        "type": "deposit"
+      },
+      {
+        "id": 6,
+        "owner": 3,
+        "sender": null,
+        "receiver": "Charlie",
+        "note": "Withdraw for emergency",
+        "amount": 200,
+        "bank": "Bank C",
+        "type": "withdraw"
+      },
+      {
+        "id": 7,
+        "owner": 2,
+        "sender": null,
+        "receiver": "Bob",
+        "note": "Withdraw for rent",
+        "amount": 150,
+        "bank": "Bank B",
+        "type": "withdraw"
+      },
+      {
+        "id": 8,
+        "owner": 4,
+        "sender": null,
+        "receiver": "David",
+        "note": "Deposit for savings",
+        "amount": 1000,
+        "bank": "Bank C",
+        "type": "deposit"
+      },
+      {
+        "id": 9,
+        "owner": 4,
+        "sender": null,
+        "receiver": "David",
+        "note": "Withdraw for investment",
+        "amount": 700,
+        "bank": "Bank C",
+        "type": "withdraw"
+      },
+      {
+        "id": 10,
+        "owner": 2,
+        "sender": null,
+        "receiver": "Bob",
+        "note": "Deposit for utilities",
+        "amount": 80,
+        "bank": "Bank B",
+        "type": "deposit"
+      }
+    ]
+  }
